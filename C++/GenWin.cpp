@@ -17,6 +17,7 @@ void GenWin::gen()
 		string buff;
 		buff = words.substr(0, 5);
 ////////////////
+		for (int i = 0; i != words.length(); i++)
 		{
 			int temp = static_cast<int>(static_cast<unsigned char>(words[i]));
 			char prevWord;

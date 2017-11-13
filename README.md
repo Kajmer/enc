@@ -3,8 +3,8 @@ Encryption script.
 
 The implementation of the script on PHP is newer.
 
-Main idea:
-You submit a simple string (for example, a password) to the input and at the constant input values ??get the same complicated string.
+Main idea: 
+You submit a simple string (for example, a password) to the input and at the constant input values get the complicated string with same length.
 
 Thus, for example, you can use one password for multiple systems. In one parameter you specify your password, in a different site name - and you have a complicated password on the output based on a simple,
 
